@@ -29,7 +29,9 @@ counter=7, backedn=localhost:5001
 ## Coming Features
 * Config Properties From File
 * Backend health checks
-* Timeouts
+* Timeouts(Client,Server)
 * Retries
 * Different LB Algoritms(Source IP Hash, Resource Based , Least Connection, Weighted Round Robin , St)
 * Active Passive LB
+* Dynamic Backend Size
+* Path,Port, Header based routing
