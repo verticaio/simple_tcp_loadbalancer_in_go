@@ -6,7 +6,6 @@
 * Timeouts(Client,Server)
 * Retries
 * Different LB Algoritms(Source IP Hash, Resource Based , Least Connection, Weighted Round Robin)
-* Active Passive LB
 * Dynamic Backend Count from Service Discovery
 * Path,Port, Header based routing
 * Monitoring metrics
