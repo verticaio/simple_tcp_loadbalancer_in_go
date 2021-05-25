@@ -7,8 +7,9 @@
 * Retries
 * Different LB Algoritms(Source IP Hash, Resource Based , Least Connection, Weighted Round Robin)
 * Active Passive LB
-* Dynamic Backend Size
+* Dynamic Backend Count from Service Discovery
 * Path,Port, Header based routing
+* Monitoring metrics
 
 ## Example Usage:
 Open sample three different port in your local laptop with using nodejs command in which using as  backend servers
