@@ -27,11 +27,11 @@ $ curl localhost:8080
 ```
 App logs ...
 ```bazaar
-counter=1, backedn=localhost:5001
-counter=2, backedn=localhost:5002
-counter=3, backedn=localhost:5003
-counter=4, backedn=localhost:5001
-counter=5, backedn=localhost:5002
-counter=6, backedn=localhost:5003
-counter=7, backedn=localhost:5001
+request counter=1, backedn=localhost:5001
+request counter=2, backedn=localhost:5002
+request counter=3, backedn=localhost:5003
+request counter=4, backedn=localhost:5001
+request counter=5, backedn=localhost:5002
+request counter=6, backedn=localhost:5003
+request counter=7, backedn=localhost:5001
 ```
