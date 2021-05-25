@@ -5,13 +5,14 @@ import (
 	"io"
 	"log"
 	"net"
+	"os"
 )
 
 var (
 	counter int
 
 	// TODO configurable
-	listenAddr = ":8080"
+	listenAddr = ":" + os.Args[1]   // open lb endpoint
 
 	// TODO configurable
 	server = []string{

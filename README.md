@@ -17,9 +17,9 @@ Open sample three different port in your local laptop with using nodejs command 
  $ npx http-server -p 5002
  $ npx http-server -p 5003
 ```
-Run your app as below
+Run your app as below(set lb endpoint as argument)
 ```bazaar
- $ go run main.go
+ $ go run main.go 8080
 ```
 Send simple curl request load balancer endpoint one more time
 ```bazaar
