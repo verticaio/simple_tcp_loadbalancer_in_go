@@ -57,7 +57,7 @@ func proxy(backend string, c net.Conn) error {
     }
     // c --> bc   connections to backend
     go io.Copy(bc, c)   // send to background  with goroutine
-    // bc --> c   get result to client
+    // bc --> c   get backend conn result to client
     go io.Copy(c,bc)    // send to background  with goroutine
 
     return nil
