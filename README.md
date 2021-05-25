@@ -1,6 +1,6 @@
 # Simple TCP  LoadBalancer
 ## Example Usage:
-Open sample three different port in your local laptop with using nodejs command
+Open sample three different port in your local laptop with using nodejs command in which using as  backend servers
 ```bazaar
  $ npx http-server -p 5001
  $ npx http-server -p 5002
@@ -9,13 +9,6 @@ Open sample three different port in your local laptop with using nodejs command
 Run your app as below
 ```bazaar
  $ go run main.go
-    counter=1, backedn=localhost:5001
-    counter=2, backedn=localhost:5002
-    counter=3, backedn=localhost:5003
-    counter=4, backedn=localhost:5001
-    counter=5, backedn=localhost:5002
-    counter=6, backedn=localhost:5003
-    counter=7, backedn=localhost:5001
 ```
 Send simple curl request load balancer endpoint
 ```bazaar
