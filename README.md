@@ -1,4 +1,15 @@
 # Simple TCP  LoadBalancer
+
+## Coming Features
+* Config Properties From File
+* Backends health check
+* Timeouts(Client,Server)
+* Retries
+* Different LB Algoritms(Source IP Hash, Resource Based , Least Connection, Weighted Round Robin)
+* Active Passive LB
+* Dynamic Backend Size
+* Path,Port, Header based routing
+
 ## Example Usage:
 Open sample three different port in your local laptop with using nodejs command in which using as  backend servers
 ```bazaar
@@ -24,14 +35,3 @@ counter=5, backedn=localhost:5002
 counter=6, backedn=localhost:5003
 counter=7, backedn=localhost:5001
 ```
-
-
-## Coming Features
-* Config Properties From File
-* Backend health checks
-* Timeouts(Client,Server)
-* Retries
-* Different LB Algoritms(Source IP Hash, Resource Based , Least Connection, Weighted Round Robin , St)
-* Active Passive LB
-* Dynamic Backend Size
-* Path,Port, Header based routing
