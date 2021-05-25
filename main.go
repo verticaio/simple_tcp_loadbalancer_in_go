@@ -40,6 +40,7 @@ func main() {
 
 		backend :=  chooseBackend()
 		fmt.Printf("request counter=%d, backedn=%s\n", counter, backend)
+		// concurrency proxy connections
 		go func() {
 			err := proxy(backend, conn)
 			if err != nil {
