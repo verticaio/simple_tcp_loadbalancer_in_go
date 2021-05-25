@@ -11,7 +11,7 @@
 * Monitoring metrics
 
 ## Example Usage:
-Open sample three different port in your local laptop with using nodejs command in which using as  backend servers
+Prepare three backend services with  different port in your local laptop  using nodejs package
 ```bazaar
  $ npx http-server -p 5001
  $ npx http-server -p 5002
