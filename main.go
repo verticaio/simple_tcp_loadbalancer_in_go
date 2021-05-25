@@ -39,7 +39,7 @@ func main() {
 		}
 
 		backend :=  chooseBackend()
-		fmt.Printf("counter=%d, backedn=%s\n", counter, backend)
+		fmt.Printf("request counter=%d, backedn=%s\n", counter, backend)
 		go func() {
 			err := proxy(backend, conn)
 			if err != nil {
