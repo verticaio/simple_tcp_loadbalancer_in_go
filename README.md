@@ -8,6 +8,7 @@
 * Different LB Algoritms(Source IP Hash, Resource Based , Least Connection, Weighted Round Robin)
 * Dynamic Backend Count from Service Discovery
 * Path,Port, Header based routing
+* Forward Client IPs to backend endpoint  
 * Monitoring metrics
 
 ## Example Usage:
