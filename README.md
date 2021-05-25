@@ -10,7 +10,7 @@ Run your app as below
 ```bazaar
  $ go run main.go
 ```
-Send simple curl request load balancer endpoint
+Send simple curl request load balancer endpoint one more time
 ```bazaar
 $ curl localhost:8080
 ```
