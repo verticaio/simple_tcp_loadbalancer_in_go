@@ -17,7 +17,7 @@ Open sample three different port in your local laptop with using nodejs command 
  $ npx http-server -p 5002
  $ npx http-server -p 5003
 ```
-Run your app as below(set lb endpoint as argument)
+Run your app as below(set lb port as argument)
 ```bazaar
  $ go run main.go 8080
 ```

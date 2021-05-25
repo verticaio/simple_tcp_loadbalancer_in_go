@@ -12,7 +12,7 @@ var (
 	counter int
 
 	// TODO configurable
-	listenAddr = ":" + os.Args[1]   // open lb endpoint
+	listenAddr = ":" + os.Args[1]   // set lb port
 
 	// TODO configurable
 	server = []string{
