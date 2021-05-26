@@ -12,6 +12,7 @@
 * Forward Client IPs to backend endpoint
 * Set Authentication for LB Endpoint
 * Configure SSL handshake LB endpoint  
+* Advance concurrency support
 * Monitoring metrics
 
 ## Example Usage:
