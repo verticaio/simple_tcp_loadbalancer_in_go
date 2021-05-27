@@ -6,7 +6,7 @@
 * Timeouts(Client,Server)
 * Retries
 * Limits/Quotas  
-* Different LB Algoritms(Source IP Hash, Resource Based , Least Connection, Weighted Round Robin)
+* Different LB Algoritms(Round-Robin, Source IP Hash, Resource Based , Least Connection, Weighted Round Robin)
 * Dynamic Backend Endpoint List from Service Discovery
 * Path,Port, Header based routing
 * Forward Client IPs to backend endpoint
